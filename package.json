@@ -1,0 +1,44 @@
+{
+  "name": "seo-automation-toolkit",
+  "version": "1.0.0",
+  "description": "Comprehensive SEO automation toolkit for Node.js - keyword research, backlink analysis, technical SEO audits, content optimization, rank tracking, and report generation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "keyword-research": "node scripts/keywordResearch.js",
+    "backlink-analysis": "node scripts/backlinkAnalysis.js",
+    "seo-audit": "node scripts/seoAudit.js",
+    "content-check": "node scripts/contentOptimization.js",
+    "rank-tracking": "node scripts/rankTracking.js",
+    "generate-report": "node scripts/generateReport.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "SEO",
+    "automation",
+    "keyword-research",
+    "backlink-analysis",
+    "technical-seo",
+    "content-optimization"
+  ],
+  "author": "stickergorillas",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "puppeteer": "^21.3.0",
+    "pdfkit": "^0.13.0",
+    "json2csv": "^6.0.0",
+    "lodash": "^4.17.21",
+    "chalk": "^5.3.0",
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
